@@ -1,0 +1,15 @@
+#take input
+num1 = float(input ("Enter a Number:"))
+Op = input ("Enter an Operand (+,-,/,*,%)")
+num2 = float(input ("Enter a Number:"))
+if Op == '+' :
+    print ("Ans=",num1 + num2)
+elif Op == '-' :
+    print ("Ans=",num1 - num2)
+elif Op == '/':
+    print ("Ans=",num1 / num2)
+elif Op == '*':
+    print ("Ans=",num1 * num2)
+elif Op == '%':
+    print ("remainder =",num1 % num2)
+else: print ("Wrong Operand")
