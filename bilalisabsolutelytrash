@@ -11,5 +11,5 @@ elif Op == '/':
 elif Op == '*':
     print ("Ans=",num1 * num2)
 elif Op == '%':
-    print ("remainder =",num1 % num2)
+    print ("Ans=",num1 % num2)
 else: print ("Wrong Operand")
